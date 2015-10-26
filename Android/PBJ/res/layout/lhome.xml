@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    android:background="#ffffff" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_header">
+         
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+        />  
+        
+        </RelativeLayout>
+    
+          <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:layout_weight="1.12" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+            <HorizontalScrollView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:fillViewport="true"
+                          android:scrollbars="none">
+             <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tabStripEnabled="true" >
+
+            </TabWidget>
+ 
+            </HorizontalScrollView>
+
+             <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" >
+
+                    <ScrollView
+                        android:id="@+id/scrollnoticias"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"                        
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:background="#ffffff"
+                            android:id="@+id/list1" >
+                                                        
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:orientation="horizontal" />
+	                        
+                        </LinearLayout>
+                        
+                    </ScrollView>
+
+                </LinearLayout>
+
+             </FrameLayout>           
+        
+        </LinearLayout>        
+        
+        </TabHost>
+                                       
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="60dp"
+               android:orientation="horizontal"
+               android:id="@+id/barra_botones"
+               android:gravity="center_horizontal"
+               android:background="#ffffff" >
+               
+               <TextView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Paginas:" 
+                   android:layout_margin="10dp"
+                   android:textColor="#000000"/>
+               
+               <Button android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="1" 
+                   android:id="@+id/pag1"
+                   android:layout_margin="10dp"/>
+               
+               <Button android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="2" 
+                   android:id="@+id/pag2"
+                   android:layout_margin="10dp"/>
+               
+               <Button android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="3" 
+                   android:id="@+id/pag3"
+                   android:layout_margin="10dp"/>
+               
+               <Button android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="4" 
+                   android:id="@+id/pag4"
+                   android:layout_margin="10dp"/>
+               
+               <Button android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="5" 
+                   android:id="@+id/pag5"
+                   android:layout_margin="10dp"/>
+
+           </LinearLayout>
+        
+    
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/banner"
+         />
+
+</LinearLayout>

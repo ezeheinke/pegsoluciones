@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="PlanetaBoca">
+		<name >
+			Planeta Boca
+		</name>
+		<description >
+			
+		</description>
+		<version >
+			2.0
+		</version>
+		<vendor >
+			Peg Soluciones
+		</vendor>
+		<copyright >
+			Copyright (c) 2013 Peg Soluciones
+		</copyright>
+		<fileset Java="1.55" _blackberryVersion="[5.0.0)">
+			<directory >
+				5.0.0
+			</directory>
+			<files >
+				PlanetaBoca.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>

@@ -1,0 +1,31 @@
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\Turnos.Form1.resources
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\Turnos.Properties.Resources.resources
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.exe
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.pdb
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\Datos.dll
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\Datos.pdb
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.exe
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.pdb
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.exe.config
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\Servicios.dll
+C:\Users\Gabi\Desktop\TurnosPEG\TurnosPEG\bin\Debug\Servicios.pdb
+D:\Gaby\PEG-Soluciones\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.exe.config
+D:\Gaby\PEG-Soluciones\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.exe
+D:\Gaby\PEG-Soluciones\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.exe.config
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.exe
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\TurnosPEG.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.exe
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\TurnosPEG.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\Servicios.dll
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\bin\Debug\Servicios.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\Turnos.Form1.resources
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\Turnos.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\TurnosPEG\obj\x86\Debug\GenerateResource.write.1.tlog

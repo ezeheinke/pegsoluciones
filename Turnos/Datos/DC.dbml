@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Turnos" Class="DC" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Especialidades" Member="Especialidades">
+    <Type Name="Especialidade">
+      <Column Name="especialidad_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="especialidad_nombre" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Turnos" Member="Turnos">
+    <Type Name="Turno">
+      <Column Name="turno_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="turno_sysdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="turno_fecha" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="turno_paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="turno_medico" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="turno_obraSocial" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="turno_especialidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="turno_primeraVez" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="turno_telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="turno_nombre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="turno_tipo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Especialidad-Medico]" Member="Especialidad_Medicos">
+    <Type Name="Especialidad_Medico">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idEspecialidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idMedico" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Medicos" Member="Medicos">
+    <Type Name="Medico">
+      <Column Name="medico_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="medico_nombre" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="medico_apellido" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="medico_DNI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="medico_telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="medico_mail" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MedicoxDia" Member="MedicoxDias">
+    <Type Name="MedicoxDia">
+      <Column Name="idMedicoxDia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idMedico" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEspecialidad" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="horaInicio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="horaFin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="duracionTurno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="frecuencia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="inicioFrecuencia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ObraSocial_TipoTurno" Member="ObraSocial_TipoTurnos">
+    <Type Name="ObraSocial_TipoTurno">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="obraSocial" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tipoTurno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="covertura" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="observaciones" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ObrasSociales" Member="ObrasSociales">
+    <Type Name="ObrasSociale">
+      <Column Name="obra_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="obra_nombre" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="obra_mail" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="obra_telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="obra_direccion" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="obra_localidad" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pacientes" Member="Pacientes">
+    <Type Name="Paciente">
+      <Column Name="paciente_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="paciente_nombre" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="paciente_apellido" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="paciente_dni" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="paciente_tel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="paciente_cel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="paciente_mail" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="paciente_direccion" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="paciente_localidad" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="paciente_fechaAlta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="paciente_observaciones" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TipoTurnos" Member="TipoTurnos">
+    <Type Name="TipoTurno">
+      <Column Name="idTipoTurno" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

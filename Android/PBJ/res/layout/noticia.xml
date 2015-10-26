@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"   
+    android:padding="10dip"
+   >
+
+	<TextView
+	    android:id="@+id/titulo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginTop="5dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginBottom="5dip" 
+	    android:text="@string/titulo"
+	    android:textSize="18dip"
+	    android:textStyle="bold"	  
+	    android:textColor="@color/black"  
+	/>
+	
+	<TextView
+	    android:id="@+id/resumen"
+	    android:layout_below="@+id/titulo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginTop="5dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginBottom="5dip" 
+	    android:text="@string/resumen"
+	    android:textColor="@color/black"
+	/>
+	
+	<TextView
+	    android:id="@+id/redactor"
+	    android:layout_below="@+id/resumen"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginTop="5dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginBottom="5dip" 
+	    android:text="@string/redactor"
+	    android:textSize="14dip"
+	    android:textColor="@color/black"
+	/>
+	
+	<TextView
+	    android:id="@+id/cantidad_comentarios"
+	    android:layout_below="@+id/redactor"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginTop="0dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginBottom="5dip" 
+	    android:text="@string/comentarios"
+	    android:textSize="14dip"
+	    android:textColor="@color/black"
+	/>
+	
+    
+</RelativeLayout>

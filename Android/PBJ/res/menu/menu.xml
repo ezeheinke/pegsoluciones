@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/contactp"
+          android:title="@string/contacto"/>
+    <item android:id="@+id/soporte"
+          android:title="@string/soporte" />
+    <item android:id="@+id/about"
+          android:title="@string/about" />
+    <item android:id="@+id/publicidad"
+          android:title="@string/publicidad" />
+    <item android:id="@+id/bypeg"
+          android:title="@string/bypeg" />
+    <item android:id="@+id/copyright" 
+          android:title="@string/copyright"/>
+</menu>

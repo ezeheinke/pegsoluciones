@@ -1,0 +1,14 @@
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\bin\Debug\Servicios.dll
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\bin\Debug\Datos.dll
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\bin\Debug\Datos.pdb
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\obj\Debug\Servicios.dll
+C:\Users\Gabi\Desktop\TurnosPEG\Servicios\obj\Debug\Servicios.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\bin\Debug\Servicios.dll
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\bin\Debug\Servicios.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\obj\Debug\Servicios.dll
+C:\Documents and Settings\Administrador\Escritorio\PEG-Soluciones\trunk\TurnosPEG\Servicios\obj\Debug\Servicios.pdb

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+    	android:id="@+id/text_comentario"
+	   	android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:textSize="18dip"
+	   	android:layout_margin="10dip"
+	   	android:text="@string/apellido_pasajero"
+	   	android:textColor="@color/black"
+    />
+    
+    <TextView
+        android:id="@+id/autor_comentario" 
+        android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:textSize="14dip"
+	   	android:textStyle="bold"
+	   	android:layout_marginTop="5dip"
+	   	android:layout_marginBottom="5dip"
+	   	android:layout_marginLeft="10dip"
+	   	android:layout_marginRight="10dip"
+	   	android:text="@string/apellido_pasajero"
+	   	android:layout_below="@+id/text_comentario"
+	   	android:textColor="@color/black"
+    />
+    
+    <TextView
+        android:id="@+id/fecha_comentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/autor_comentario"
+        android:layout_below="@+id/autor_comentario"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:text="@string/apellido_pasajero"
+        android:textSize="12dip"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="hello">Hello World, AerolineasActivity!</string>
+    <string name="app_name">Planeta Boca</string>
+    <string name="codigo_reserva">Código de reserva</string>
+    <string name="apellido_pasajero">Apellido pasajero</string>
+    <string name="continuar">Continuar</string>
+    <string name="mail">Direccion de email</string>
+    <string name="nro_asiento">Número de asiento</string>
+    <string name="finalizar">Finalizar</string>
+    <color name="azul_header">#235A91</color>
+    <color name="white">#FFFFFF</color>
+    <string name="titulo">El titulo de una notica</string>
+    <string name="resumen">El resumen de una noticia nipdajda doj dao dsao dñdñ dsak odas kodsko dsakdsasñ d dsañdak d kldas akldokqaasopoak</string>
+    <string name="redactor">Por: Pablo Poza</string>
+    <string name="comentarios">Comentarios: 5</string>
+    <color name="amarillo">#FFF7E7B9</color>
+    <color name="blue">#FF0F2D4F</color>
+    <string name="descargando">Descargando...</string>
+    <string name="contacto">Contacto</string>
+    <string name="publicidad">Publicite aquí</string>
+    <string name="soporte">Soporte</string>
+    <string name="about">Sobre PBJ</string>
+    <string name="bypeg">Construido por PEG</string>
+    <string name="comentar">Comentar</string>
+    <color name="black">#FF000000</color>
+    <string name="enviar">Enviar</string>
+    <string name="nombre">Nombre</string>
+    <string name="comentario">Comentario</string>
+    <string name="cero_comentarios">Esta noticia todavia no tiene cometarios, se el primero en comentar.</string>
+    <string name="copyright">Copyright</string>
+    <string name="url_detalle_from_url">http://www.planetabocajuniors.com.ar/serviciosBB/services/ws_detalle_noticia_by_name.php?NAME=</string>
+
+</resources>

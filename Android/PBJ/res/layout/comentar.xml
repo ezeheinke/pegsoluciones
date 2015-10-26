@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="left|right"
+    android:orientation="vertical"    
+    android:id="@+id/linear_comentar"
+   >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/azul_header">
+        <ImageView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/header"
+    />  
+        
+    </RelativeLayout>   
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="409dip" 
+        android:layout_weight="1.12" 
+        android:orientation="vertical">   
+        
+    <TextView
+        android:id="@+id/titulo_form_comentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginLeft="10dip"
+        android:padding="2dip"
+        android:text="@string/apellido_pasajero"
+        android:textColor="@color/black"
+        android:textSize="22dip" />
+
+
+    <EditText
+        android:id="@+id/autor_form_comentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:hint="@string/nombre"
+        android:padding="10dip" />
+
+    <EditText
+        android:id="@+id/mail_form_comentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/text_form_comentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="0.79"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/comentario"
+        android:inputType="textMultiLine"
+        android:singleLine="false" >
+
+        <requestFocus />
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/boton_form_enviar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/enviar" />
+    
+    </LinearLayout>
+
+</LinearLayout>
