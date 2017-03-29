@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRoot"    
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B72B5"
+    android:weightSum="13"
+    android:orientation="vertical"
+    tools:context="com.pozasoft.android.montoya.MainActivity" >
+
+
+    <include layout="@layout/header"/>
+
+    
+    <EditText 
+         android:singleLine="true"
+         android:hint="Nombre"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/nombre"
+         android:layout_weight="1"
+         android:focusableInTouchMode="true"
+         android:textColor="#FFFFFF"
+         android:textColorHint="#FFFFFF"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+         android:nextFocusForward="@+id/apellido"
+         android:imeOptions="actionNext"
+    />
+
+    <EditText 
+         android:hint="Apellido"
+         android:singleLine="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@id/apellido"
+         android:nextFocusForward="@+id/mail"
+         android:layout_weight="1"
+         android:textColor="#FFFFFF"
+         android:textColorHint="#FFFFFF"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+         android:imeOptions="actionNext"
+    />
+     
+    <EditText 
+         android:hint="Mail"
+         android:singleLine="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@id/mail"
+         android:nextFocusForward="@+id/localidad"
+         android:layout_weight="1"
+         android:textColor="#FFFFFF"
+         android:textColorHint="#FFFFFF"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+         android:imeOptions="actionNext"    
+    />
+    
+    <EditText
+         android:hint="Localidad"
+         android:singleLine="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@id/localidad"
+         android:nextFocusForward="@+id/telefono"
+         android:layout_weight="1"
+         android:textColor="#FFFFFF"
+         android:textColorHint="#FFFFFF"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+         android:imeOptions="actionNext"
+    />          	        	 
+        
+    
+    <EditText 
+         android:hint="Telefono (opcional)"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@id/telefono"
+         android:textColor="#FFFFFF"
+         android:textColorHint="#FFFFFF"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+         android:layout_weight="1"
+         android:singleLine="true"
+         android:imeOptions="actionDone"
+    />	        
+    
+    <Button	            
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_weight="2"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#FFFFFF"
+        android:text="    SIGUIENTE    "
+        android:padding="5dp"
+        android:onClick="onSiguiente"  />
+
+
+
+</LinearLayout>

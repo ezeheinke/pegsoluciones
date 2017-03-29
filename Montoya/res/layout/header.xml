@@ -1,0 +1,29 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"     
+    android:layout_weight="6"
+    android:background="#0B72B5"
+    
+>
+
+    <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/naranja"
+            android:background="#EE8027">
+    
+    </RelativeLayout>  
+
+        
+    <ImageButton
+        android:layout_below="@id/naranja"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:src="@drawable/sm"
+        android:background="#0B72B5"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:onClick="showDialog"/>
+        
+
+</RelativeLayout>

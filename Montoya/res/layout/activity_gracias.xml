@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B72B5"
+    android:weightSum="19"
+    android:orientation="vertical"
+    tools:context="com.pozasoft.android.pnetbox.MainActivity"
+    android:id="@+id/activityRoot"     >
+
+
+
+    <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/naranja"
+            android:background="#EE8027">
+    
+    </RelativeLayout>  
+
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" 
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/gracias"
+        android:id="@+id/pregunta"
+        android:text="MUCHAS GRACIAS\nPOR PARTICIPAR"
+    />    
+    
+
+    <ImageButton
+        android:layout_below="@id/naranja"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="8"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/sm"
+        android:background="#0B72B5"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"/>
+    
+
+
+
+    <Button             
+        android:id="@+id/button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#FFFFFF"
+        android:text="    FINALIZAR    "
+        android:padding="5dp"
+        android:onClick="onRestart"  />
+
+
+
+</LinearLayout>

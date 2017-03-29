@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRoot"    
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B72B5"
+    android:weightSum="19"
+    android:orientation="vertical"
+    tools:context="com.pozasoft.android.pnetbox.MainActivity" >
+
+
+    <include layout="@layout/header"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"  
+        android:layout_weight="2"
+        android:text="¿Roaid apiasj das pdipasdp aspdsa dsapd saodj on dspjsa jd iad jpias?"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/pregunta"
+        android:id="@+id/pregunta"
+    />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="9"
+        android:id="@+id/ragiogroup"
+        android:orientation="vertical">
+        
+        <RadioButton 
+            android:id="@+id/option1"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/radioButtonText"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            android:text="werwerew"/>
+        <RadioButton  
+            android:id="@+id/option2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sfffs"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+       <RadioButton 
+            android:id="@+id/option3"     
+            android:tag="3"       
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:text="werwerew"/>
+        <RadioButton 
+            android:id="@+id/option4" 
+            android:tag="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adsassad"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/radioButtonText"
+            android:textColor="#FFFFFF"/>
+        <RadioButton 
+            android:id="@+id/option5" 
+            android:tag="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:text="werwerew"/>
+        <RadioButton  
+            android:id="@+id/option6"
+            android:tag="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sadsadads"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>
+        <RadioButton  
+            android:id="@+id/option7"
+            android:tag="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:text="werwerew"/>
+        <RadioButton 
+            android:id="@+id/option8" 
+            android:tag="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sadsadsa"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>        
+        <RadioButton 
+            android:id="@+id/option9"
+            android:tag="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdadsdsa"
+            android:textSize="@dimen/radioButtonText"
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"/>     
+            
+    </RadioGroup>
+    
+    <Button             
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#FFFFFF"
+        android:text="    SIGUIENTE    "
+        android:padding="5dp"
+        android:onClick="onSiguiente"  />
+
+
+
+</LinearLayout>
