@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="14" >
+
+        
+    <RelativeLayout android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent" 
+        >
+         <ImageView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+        
+    </RelativeLayout>
+    
+	    <TextView android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginTop="17dp"
+	        android:layout_marginBottom="2dp"
+	        android:layout_marginLeft="27dp"
+	        android:layout_marginRight="25dp"
+	        android:layout_gravity="left"
+	        android:layout_weight="0.6"
+	        android:textColor="@color/verde"
+	        android:textSize="@dimen/title_size"
+	        android:text="Zona"/>
+ 
+    <Spinner
+        android:id="@+id/zona"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:prompt="@string/popup_spinner_title" 
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="left"
+        android:layout_weight="1.35"
+    />
+    
+     <TextView android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="2dp"
+     android:layout_marginLeft="27dp"
+     android:layout_marginRight="25dp"
+     android:layout_gravity="left"
+     android:layout_weight="0.6"
+     android:textColor="@color/verde"
+     android:textSize="@dimen/title_size"
+     android:text="Localidad"/>
+    
+    <Spinner
+        android:id="@+id/barrio"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:prompt="@string/popup_spinner_title" 
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="5dp"
+        android:layout_weight="1.35"
+        />
+    
+    
+    <TextView android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="2dp"
+     android:layout_marginLeft="27dp"
+     android:layout_marginRight="25dp"
+     android:layout_gravity="left"
+     android:layout_weight="0.60"
+     android:textColor="@color/verde"
+     android:textSize="@dimen/title_size"
+     android:text="Prestación"/>
+    
+    <Spinner
+        android:id="@+id/especialidad"
+        android:layout_width="match_parent"        
+        android:prompt="@string/popup_spinner_title" 
+        android:layout_height="0dp"        
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="5dp"
+        android:layout_weight="1.35"/>
+    
+    <Button android:id="@+id/buscar"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/title_size"
+        android:text="Buscar"
+        android:onClick="onBuscar"
+        android:layout_weight="1.35"/>
+    
+        <Button android:id="@+id/emergencias"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="@dimen/title_size"
+        android:text="Emergencias y Contacto"
+        android:onClick="onEmergencias"
+        android:layout_weight="1.35"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="3.45"  >
+        
+        <TextView android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"    
+        android:textColor="#000000"
+        android:text="La Superintendencia de Servicios de Salud tiene habilitado un servicio telefónico gratuito para recibir desde cualquier punto del país, consultas, reclamos o denuncias sobre irregularidades de la operación de traspasos. El mismo se encuentra habilitado de lunes a viernes de 10 a 17 hs. llamando al 0800-222-72583"
+        />
+        
+       </RelativeLayout>
+   
+</LinearLayout>

@@ -1,0 +1,53 @@
+[
+	{
+		"question":"¿Cómo definiría el estado general actual de la Provincia de Buenos Aires?",
+		"choices":[
+			"Malo",
+			"Regular",
+			"Bueno",
+			"Muy Bueno"
+		]
+	},
+	{
+		"question":"En su opinión ¿cuál cree usted que es el principal problema de la PBA?",
+		"choices":[
+			"Seguridad",
+			"Educación",
+			"Salud",
+			"Rutas/Infraestructura",
+			"Obra pública - Otro"
+		]
+	},
+	{
+		"question":"En su opinión ¿qué es lo mejor que hizo la gestión actual de la PBA?",
+		"choices":[
+			"Seguridad",
+			"Educación",
+		 	"Salud",
+			"Rutas/Infraestructura /Obra pública",
+			"Otros"
+		]
+	},
+	{
+		"question":"Si usted fuera gobernador de Buenos Aires, ¿cuál sería la primera medida que tomaría? ",
+		"choices":[
+			"Reducir la Inflación",
+			"Reducir la Inseguridad",
+			"Mejorar la Educación",
+			"Reducir la Desocupación / precariedad laboral",
+			"Mejorar los salarios",
+			"Mejorar la Salud",
+			"Disminuir la Pobreza",
+			"Combatir el Narcotráfico",
+			"Mejorar la justicia"
+		]
+	},
+	{
+		"question":"Si tuviese que elegir a un superhéroe para que se haga cargo de la provincia de Buenos Aires, ¿a cuál de estos tres elegiría?: ",
+		"choices":[
+			"Batman",
+			"Superman",
+			"El zorro"			
+		]
+	}
+]

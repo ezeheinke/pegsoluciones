@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/llamarEmergencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:text="URGENCIAS, EMERGENCIAS Y MEDICO A DOMICILIO LAS 24 HS.\n0800-333-OSFE (6733)"
+        android:layout_margin="5dp"/>    
+    
+    <Button 
+        android:id="@+id/llamarOSFE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:text="OSFE \nCentro de Gestión y Atención Telefónica\n0800-333-3313 días hábiles de 9 a 18 hs"
+        android:layout_margin="5dp"/>
+ 
+</LinearLayout>
